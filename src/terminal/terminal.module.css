@@ -1,0 +1,72 @@
+.body {
+    color : #469975;
+    background-color: transparent;
+    /* color */
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.prompt {
+    display : flex;
+    align-items: start;
+    height : 100%;
+}
+
+
+.inpt {
+    background-color: transparent;
+    color : inherit;
+    border: none;
+    resize:none;
+    overflow: none;
+    height: 100%;
+    /* caret-color: transparent; */
+    /* width: 100%; */
+
+}
+
+.inpt:focus {
+    background-color: none;
+    border: none;
+    outline : none;
+}
+
+.label {
+    display : block;
+}
+
+.greeting {
+    color : #B89076;
+}
+
+.cursor {
+    font-size: 12px;
+    color: #73ABAD;
+    background-color: #73ABAD;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+   a {
+        text-decoration: none;
+  }
+
+   li {
+    list-style: none;
+  }
+
+ 
